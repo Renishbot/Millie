@@ -1,0 +1,3 @@
+files:
+  - source: Millie/localization/en.yaml
+    translation: /**/Millie/localization/%locale_with_underscore%.yaml
