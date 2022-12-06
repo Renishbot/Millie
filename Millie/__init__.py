@@ -24,6 +24,7 @@ from aiogram.contrib.fsm_storage.redis import RedisStorage2
 from Millie.config import get_bool_key, get_int_key, get_list_key, get_str_key
 from Millie.services.telethon import tbot
 from Millie.utils.logger import log
+from Millie.versions import MILLIE_VERSION
 
 log.info("----------------------")
 log.info("|   Millie    |")
