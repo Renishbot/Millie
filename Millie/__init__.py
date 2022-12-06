@@ -31,7 +31,7 @@ log.info("----------------------")
 log.info("Version: v3.0")
 
 if get_bool_key("DEBUG_MODE") is True:
-    "3.0" += "-debug"
+    3.0 += "-debug"
     log.setLevel(logging.DEBUG)
     log.warn(
         "! Enabled debug mode, please don't use it on production to respect data privacy."
