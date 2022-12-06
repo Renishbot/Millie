@@ -51,10 +51,7 @@ spamwatch_api = get_str_key("SW_API", required=True)
 sw = spamwatch.Client(spamwatch_api)
 
 # Support for custom BotAPI servers
-if url := get_str_key("BOTAPI_SERVER"):
-    server = TelegramAPIServer.from_base(url)
-else:
-    server = TELEGRAM_PRODUCTION
+server = TELEGRAM_PRODUCTION
 
 # AIOGram
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML, server=server)
