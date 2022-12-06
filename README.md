@@ -28,6 +28,20 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 
    [![Deploy To Railway](https://railway.app/button.svg)](https://renish.rplayrenishamer.workers.dev/0:/Millie/Millie_10.jpeg)
 
+### Self-hosting (For Devs) ⚔
+```sh
+# Install Git First (apt-instll git)
+$ git clone https://github.com/Renishbot/Millie /Millie
+$ cd Millie
+# Upgrade sources
+$ bash deploy.sh
+# Install All Requirements 
+$ pip3 install -r requirements.txt
+# Rename ./Millie/data/bot_conf.yaml.example to bot_conf.yaml and fill
+# Start Bot 
+$ python3 -m Millie
+```
+
 
 ## `SQLALCHEMY_DATABASE_URI` | ᴍᴏsᴛ ᴜsᴇ ᴏʟᴅ `ᴅʙ_ᴜʀʟ`
 
