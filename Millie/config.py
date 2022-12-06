@@ -48,9 +48,9 @@ MONGO_URI: "mongodb+srv://rplayvcbot:1rplay2@cluster0.n7alv.mongodb.net/cluster0
 
 MONGO_URI2: "mongodb+srv://rplayvcbot:1rplay2@cluster0.n7alv.mongodb.net/cluster0?retryWrites=true&w=majority"
 MONGO_PORT: 27017
-MONGO_DB': 'Millie'
+MONGO_DB: 'Millie'
 
-API_PORT': 8080
+API_PORT: 8080
 
 REDIS_URI: "redis-15630.c16.us-east-1-2.ec2.cloud.redislabs.com"
 REDIS_PORT: 15630
